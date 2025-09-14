@@ -5,7 +5,7 @@ import music_library
 import requests
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyC-NcRKyp0YsU_IRqjqKZOHe-y_vF6BPjM")  # Replace with your actual API key
+genai.configure(api_key="API_KEY = "YOUR_API_KEY")  # Replace with your actual API key
 
 # Load the model
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")  # Or gemini-1.5-pro
